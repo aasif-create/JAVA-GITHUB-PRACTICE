@@ -9,6 +9,7 @@ Q. Make a Calculator.
 
    Keep asking until the user enters 0 for both numbers → then quit.
 */
+// HELLO EVERYONE THIS IS MY FIRST JAVA PROBLEM I TRIED ON MY OWN
 
 import java.util.Scanner;
 
