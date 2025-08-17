@@ -53,7 +53,21 @@ public class SWITCHCASE2{
                 System.out.println("INVALID MONTH NUMBER! Please enter 1–12.");
         
         }
-        month.close();
+    
+
+
+//ALTERNATIVE WITHOUT USING SWITCH
+
+ Scanner months =new Scanner(System.in);
+            System.out.print("ENTER YOUR BIRTH MONTH NUMBER :");
+            int input = months.nextInt();
+            String[] mth={"null","JAN","FEB","MAR","APR","MAY","JUN","JULY","AUG","SEP","OCT","NOV","DEC"};
+            if(input>0 && input <=12) {
+                System.out.println(mth[input]);
+            }
+            else{
+                System.out.println("INVALID NUMBER MONTH , ENTER A NUMBER BW 1 TO 12");
+            }
     }
 }
-
+    
