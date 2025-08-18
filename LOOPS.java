@@ -47,8 +47,11 @@ public class LOOPS {
        {
            System.out.println(num*i);
        }
-    }
-}
+       obj.close();
+      
+    } 
+} 
+
 
 
 
