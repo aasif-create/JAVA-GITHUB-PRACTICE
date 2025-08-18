@@ -58,6 +58,8 @@ public class SWITCHCASE2{
 
 //ALTERNATIVE WITHOUT USING SWITCH
 
+//using ARRAYS
+
  Scanner months =new Scanner(System.in);
             System.out.print("ENTER YOUR BIRTH MONTH NUMBER :");
             int input = months.nextInt();
@@ -70,4 +72,5 @@ public class SWITCHCASE2{
             }
     }
 }
+
     
