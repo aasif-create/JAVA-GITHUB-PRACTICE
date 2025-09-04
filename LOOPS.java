@@ -50,13 +50,18 @@ public class LOOPS {
        obj.close();
 
     //3.PYRAMID PATTERN
-    int n=4;
-    for(int i=1 ;i<=n;i++)
+    int n2=6;
+    for(int a=1 ;a<=n2;a++)
     {
-        for(int j=1;j<=i;j++)
+        for(int j=1;j<=n2-a;j++)
         {
-            System.out.print("*" + " ")
+            System.out.print("  ");
         }
+        for(int j=1;j<=2*a-1;j++)
+        {
+            System.out.print("* ");
+        }
+
         System.out.println();
     }
       
