@@ -42,13 +42,12 @@ public class LOOPS {
 
         //2.Qs. Print the table of a number input by the user.(n = 2)
         System.out.print("ENTER A TABLE NO :");
-       int num =obj.nextInt();
-       for(i=1;i<11;i++)
-       {
-           System.out.println(num*i);
-       }
-       obj.close();
-
+        int num =obj.nextInt();
+        for(i=1;i<11;i++)
+        {
+            System.out.println(num*i);
+        }
+        obj.close();
     //3.PYRAMID PATTERN
     int n2=6;
     for(int a=1 ;a<=n2;a++)
@@ -61,10 +60,8 @@ public class LOOPS {
         {
             System.out.print("* ");
         }
-
         System.out.println();
     }
-      
     } 
 } 
 
