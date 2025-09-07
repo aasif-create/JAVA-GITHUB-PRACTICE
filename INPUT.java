@@ -19,9 +19,5 @@ public class INPUT{
         System.out.print("ROLLNO :"+rollno+"\n");
         System.out.print("DEPARTMENT :"+dept+"\n");
         System.out.print("SECTION :"+sec+"\n");
-        
-        
-    
-        
     }
 }
