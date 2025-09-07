@@ -18,5 +18,13 @@ public class input{
 
 
         //DISPLAYING THE STUDENTS DETAILS
+        System.out.print("STUDENT'S DETAILS :");
+        System.out.print("STUDENT'S NAME :"+name +"\n");
+        System.out.print("STUDENT'S ROLLNO :"+rollno+"\n");
+        System.out.print("STUDENT'S ROLLNO :"+rollno+"\n");
+        
+        
+    
+        
     }
 }
