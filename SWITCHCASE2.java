@@ -1,7 +1,3 @@
-/* 
-2. Ask the user to enter the number of the month & print the name of the month. 
-For example - For ‘1’ print ‘January’, ‘2’ print ‘February’ & so on. 
-*/
 
 import java.util.Scanner;
 
