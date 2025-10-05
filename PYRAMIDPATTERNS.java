@@ -42,5 +42,19 @@ public class PYRAMIDPATTERNS
             System.out.println();
         }
         System.out.println("<--------------------------------------------------------->");
+        System.out.println("SPACE WITH STAR PYRAMID 2");
+        int n3=7;
+        for(int i=1;i<=n3;i++)
+        {
+            for(int j=1;j<=n-i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int j=1;j<i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
