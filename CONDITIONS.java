@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class CONDITIONS {
+public class CONDITIONS
+ {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.print("ENTER YOUR AGE : ");
