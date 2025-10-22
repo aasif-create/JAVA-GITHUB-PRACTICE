@@ -7,8 +7,5 @@ public class CONDITIONS {public static void main(String[] args) {
             System.out.print("YOU ARE ELIGIBLE TO VOTE");
         else
             System.out.print("YOU ARE NOT ELIGIBLE TO VOTE \n");
-        
-       
-        
     }
 }
