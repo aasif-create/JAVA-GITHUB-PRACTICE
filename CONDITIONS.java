@@ -8,7 +8,7 @@ public class CONDITIONS {public static void main(String[] args) {
         else
             System.out.print("YOU ARE NOT ELIGIBLE TO VOTE \n");
         
-        int a=10;int b=20;int c=30;
+       
         
     }
 }
