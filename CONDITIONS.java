@@ -13,10 +13,8 @@ public class CONDITIONS {public static void main(String[] args) {
 
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-
         System.out.print("Enter third number: ");
         int c = sc.nextInt();
-
         if (a > b && a > c) {
             System.out.println(a + " is the greatest number.");
         } 
@@ -29,6 +27,5 @@ public class CONDITIONS {public static void main(String[] args) {
         else {
             System.out.println("Two or more numbers are equal.");
         }
-
     }
 }
