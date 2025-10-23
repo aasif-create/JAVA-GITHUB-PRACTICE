@@ -24,6 +24,6 @@ public class CONDITIONS {public static void main(String[] args) {
         } 
         else {
             System.out.println("Two or more numbers are equal.");
-        }
+     }
     }
 }
