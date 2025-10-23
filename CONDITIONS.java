@@ -16,5 +16,7 @@ public class CONDITIONS {public static void main(String[] args) {
 
         System.out.print("Enter third number: ");
         int c = sc.nextInt();
+
+        
     }
 }
