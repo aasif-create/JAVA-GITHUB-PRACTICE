@@ -7,10 +7,8 @@ public class CONDITIONS {public static void main(String[] args) {
             System.out.print("YOU ARE ELIGIBLE TO VOTE");
         else
             System.out.print("YOU ARE NOT ELIGIBLE TO VOTE \n");
-
          System.out.print("Enter first number: ");
         int a = sc.nextInt();
-
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
         System.out.print("Enter third number: ");
