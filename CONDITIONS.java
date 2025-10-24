@@ -34,5 +34,16 @@ public class CONDITIONS {public static void main(String[] args) {
             case 'i':
             case 'o':
             case 'u':
+
+            System.out.println(ch + " is a Vowel.");
+                break;
+            default:
+                if (Character.isLetter(ch))
+                    System.out.println(ch + " is a Consonant.");
+                else
+                    System.out.println("Invalid input! Please enter an alphabet.");
+                    }        sc.close();
     }
 }
+    
+
