@@ -46,6 +46,11 @@ public class CONDITIONS {public static void main(String[] args) {
                     sc.close();
             System.out.print("Enter your marks (0 - 100): ");
             int marks = sc.nextInt();
+            switch (marks / 10) {
+            case 10:
+            case 9:
+                System.out.println("Grade: A");
+                break;
     }
 }
     
