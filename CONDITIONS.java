@@ -4,7 +4,7 @@ public class CONDITIONS {public static void main(String[] args) {
         System.out.print("ENTER YOUR AGE : ");
         int age = sc.nextInt();
         if (age >= 18)
-            System.out.print("YOU ARE ELIGIBLE TO VOTE");
+            System.out.println("YOU ARE ELIGIBLE TO VOTE");
         else
             System.out.print("YOU ARE NOT ELIGIBLE TO VOTE \n");
          System.out.print("Enter first number: ");
@@ -42,7 +42,10 @@ public class CONDITIONS {public static void main(String[] args) {
                     System.out.println(ch + " is a Consonant.");
                 else
                     System.out.println("Invalid input! Please enter an alphabet.");
-                    }        sc.close();
+                    } 
+                    sc.close();
+            System.out.print("Enter your marks (0 - 100): ");
+            int marks = sc.nextInt();
     }
 }
     
