@@ -27,5 +27,12 @@ public class CONDITIONS {public static void main(String[] args) {
      }
      System.out.print("Enter a character: ");
         char ch = sc.next().toLowerCase().charAt(0);
+
+        switch (ch) {
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
     }
 }
