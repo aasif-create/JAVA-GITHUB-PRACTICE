@@ -51,7 +51,7 @@ public class SWITCHCASE2{
                 break;
             default:
                 System.out.println("INVALID MONTH NUMBER! Please enter 1–12.");
-        
+            month.close();
         }
     
 
@@ -70,6 +70,7 @@ public class SWITCHCASE2{
             else{
                 System.out.println("INVALID NUMBER MONTH , ENTER A NUMBER BW 1 TO 12");
             }
+            months.close();
     }
 }
 
