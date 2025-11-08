@@ -17,5 +17,6 @@ public static void main(String[] args)
     System.out.print("ENTER C VALUE : ");
     int c=obj.nextInt();
     sc.Add(a,b,c);
+    obj.close();
 }
 }
