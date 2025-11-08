@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class FUNCTIONS
 {
-    void Add(int a , int b)
+    void Add(int a , int b , int c)
     {
-        System.out.print("ADDITION OF A + B IS : " +(a+b));
+        System.out.print("ADDITION OF A + B + C IS : " +(a+b+c));
     }
 public static void main(String[] args)
 {
@@ -14,6 +14,8 @@ public static void main(String[] args)
     int a=obj.nextInt();
     System.out.print("ENTER B VALUE : ");
     int b=obj.nextInt();
-    sc.Add(a,b);
+    System.out.print("ENTER C VALUE : ");
+    int c=obj.nextInt();
+    sc.Add(a,b,c);
 }
 }
