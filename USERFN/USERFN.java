@@ -1,3 +1,4 @@
+package USERFN;
 public class USERFN{
 
     public static int add(int a, int b) {

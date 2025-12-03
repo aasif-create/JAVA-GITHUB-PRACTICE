@@ -1,3 +1,4 @@
+package USERFN;
 import java.util.Scanner;
 
 public class USERFN2{
