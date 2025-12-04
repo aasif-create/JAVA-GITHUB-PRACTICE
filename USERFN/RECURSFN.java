@@ -21,5 +21,15 @@ public class RECURSFN
         System.out.println("Calling factorial(" + number + ")");
         int result = factorial(number);
         System.out.println("Final Answer: Factorial of " + number + " = " + result);
+
+         public static void climbSteps(int step) {
+        System.out.println("You are currently on step " + step);
+        if (step == 0) {
+            System.out.println("You reached the ground level — stopping");
+            return;
+        }
+        System.out.println("Moving from step " + step + " to step " + (step - 1));
+        climbSteps(step - 1);
+    }
     }
 }
