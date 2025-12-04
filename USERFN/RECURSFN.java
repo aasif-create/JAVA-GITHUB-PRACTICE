@@ -1,5 +1,4 @@
-public class RECURSFN
-{
+public class RECURSFN {
 
     public static int factorial(int n) {
         System.out.println("factorial(" + n + ") called");
@@ -16,13 +15,7 @@ public class RECURSFN
         return result;
     }
 
-    public static void main(String[] args) {
-        int number = 5;
-        System.out.println("Calling factorial(" + number + ")");
-        int result = factorial(number);
-        System.out.println("Final Answer: Factorial of " + number + " = " + result);
-
-         public static void climbSteps(int step) {
+    public static void climbSteps(int step) {
         System.out.println("You are currently on step " + step);
         if (step == 0) {
             System.out.println("You reached the ground level — stopping");
@@ -31,6 +24,7 @@ public class RECURSFN
         System.out.println("Moving from step " + step + " to step " + (step - 1));
         climbSteps(step - 1);
     }
+
     public static void openBox(int box) {
         System.out.println("Opening box " + box);
         if (box == 1) {
@@ -54,7 +48,5 @@ public class RECURSFN
 
         System.out.println("\n=== REAL LIFE EXAMPLE 2: OPENING NESTED BOXES ===");
         openBox(4);
-    }
-}
     }
 }
