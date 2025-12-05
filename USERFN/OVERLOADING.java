@@ -24,6 +24,21 @@ class LoginSystem {
     }
 }
 
+class AreaCalculator {
+
+    public int area(int side) {
+        System.out.println("area(int side) called");
+        System.out.println("Calculating area of square");
+        return side * side;
+    }
+
+    public int area(int length, int width) {
+        System.out.println("area(int length, int width) called");
+        System.out.println("Calculating area of rectangle");
+        return length * width;
+    }
+}
+
 
 public class OVERLOADING {
     public static void main(String[] args) {
@@ -35,5 +50,10 @@ public class OVERLOADING {
         LoginSystem obj2 = new LoginSystem();
         obj2.login("aasif", "1234");
         obj2.login(9876543210L);
+
+         AreaCalculator obj = new AreaCalculator();
+
+        System.out.println("Square Area: " + obj.area(5));
+        System.out.println("Rectangle Area: " + obj.area(5, 10));
     }
 }
