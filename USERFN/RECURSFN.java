@@ -42,10 +42,8 @@ public class RECURSFN {
         System.out.println("Calling factorial(" + number + ")");
         int result = factorial(number);
         System.out.println("Final Answer: Factorial of " + number + " = " + result);
-
         System.out.println("\n=== REAL LIFE EXAMPLE 1: CLIMBING STEPS ===");
         climbSteps(5);
-
         System.out.println("\n=== REAL LIFE EXAMPLE 2: OPENING NESTED BOXES ===");
         openBox(4);
     }
