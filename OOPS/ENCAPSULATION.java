@@ -25,5 +25,8 @@ public class ENCAPSULATION {
 
         System.out.println("Accessing balance through getter method");
         System.out.println("Account Balance = " + acc.getBalance());
+
+
+        
     }
 }
