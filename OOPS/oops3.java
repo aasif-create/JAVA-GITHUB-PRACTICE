@@ -1,5 +1,6 @@
 abstract class Employee {
 
+    @SuppressWarnings("unused")
     abstract void work();
 }
 
@@ -17,6 +18,7 @@ class Staff extends Employee {
         return salary;
     }
 
+    @Override
     void work() {
         System.out.println("ABSTRACTION: Employee work implemented in Staff");
     }
@@ -24,6 +26,7 @@ class Staff extends Employee {
 
 class Developer extends Staff {
 
+    @Override
     void work() {
         System.out.println("POLYMORPHISM: work() overridden in Developer");
         System.out.println("INHERITANCE: Developer uses Staff properties");
